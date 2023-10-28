@@ -1,0 +1,134 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    margin-top: 50px;
+    background: #fff;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.container-signup{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    margin-top: 50px;
+    background: #fff;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: #3c009d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input-terms{
+    margin: auto;
+    color: #797979;
+    margin-top: 20px;
+}
+
+.err{
+   color: red;
+   margin-left: 60px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+
+.submit-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 60px auto;
+    align-items: center;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 59px;
+    color: #fff;
+    background-color: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.submit-crt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 59px;
+    color: #fff;
+    background-color: #19ad48;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.submit-container-signup{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 5px auto;
+    align-items: center;
+
+}

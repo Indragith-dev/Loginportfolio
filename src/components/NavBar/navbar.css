@@ -1,0 +1,117 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 5rem;
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 autos;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.Logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 9rem;
+}
+
+.desktopMenuListItem {
+    color: white;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+
+}
+
+.desktopMenuBtn{
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+
+.logOutBtn{
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+.logOutBtn:hover{
+    color: red;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid red;
+}
+
+
+.desktopMenuImg {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+.active{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+@media screen and (max-width:720px) {
+    .mobMenu{
+        display: flex;
+    }
+
+    .desktopMenu{
+        display: none;
+    }
+
+    .desktopMenuBtn{
+        display: none;
+    }
+    
+}
+
+.navMenu{
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 10rem;
+    background: rgb(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.listItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(20, 20, 20, 0.1);
+}
+
+
